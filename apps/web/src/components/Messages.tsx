@@ -1,0 +1,6 @@
+export enum GAME_STATUS {
+    WAITING = 'WAITING',
+    STARTED = 'STARTED',
+    RECONNECTING = 'RECONNECTING',
+    ENDED = 'ENDED'
+}
