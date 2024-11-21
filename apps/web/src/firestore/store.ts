@@ -2,7 +2,6 @@
 import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import "dotenv/config"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -10,7 +9,7 @@ const firebaseConfig = {
   authDomain: import.meta.env.VITE_FIRESTORE_AUTH_DOMAIN,
   projectId: import.meta.env.VITE_FIRESTORE_PROJECT_ID,
   storageBucket: import.meta.env.VITE_FIRESTORE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIRESTORE_MESSENGER_ID  ,
+  messagingSenderId: import.meta.env.VITE_FIRESTORE_MESSENGER_ID,
   appId: import.meta.env.VITE_FIRESTORE_APP_ID
 };
 

@@ -13,7 +13,6 @@
     "@repo/ui": "*",
     "autoprefixer": "^10.4.20",
     "chess.js": "^1.0.0-beta.8",
-    "dotenv": "^16.4.5",
     "firebase": "^10.14.1",
     "postcss": "^8.4.47",
     "react": "^18.3.1",
